@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class EmpWageUseCases
 {
-	public void EmpWageUC1() 
+	public void empWageUC1() 
 	{
 
 		Scanner input=new Scanner(System.in);
@@ -23,7 +23,7 @@ class EmpWageUseCases
 	}
 
 
-	public void EmpWageUC2andUC3(int empCheck ) 
+	public void empWageUC2andUC3(int empCheck ) 
 	{
 
 			
@@ -104,8 +104,8 @@ class EmpWageUseCases
 
 
 		EmpWageUseCases firstCase = new EmpWageUseCases();
-		firstCase.EmpWageUC1(); 
-		firstCase.EmpWageUC2andUC3(empCheck );
+		firstCase.empWageUC1(); 
+		firstCase.empWageUC2andUC3(empCheck );
 		
 		}
 
